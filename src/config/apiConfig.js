@@ -6,7 +6,7 @@ import axios from "axios";
 const api = axios.create({
 	// baseURL: "http://localhost:8080", // 로컬 Spring API 서버 주소
 	// baseURL: "http://3.35.233.82:8080", // AWS EC2 Spring API 서버 주소
-	baseURL: "https://practice-aws", // https로 요청, 기본포트 443, ALB <-> AWS EC2 Spring API 서버 주소
+	baseURL: "https://practice-aws.store", // https로 요청, 기본포트 443, ALB <-> AWS EC2 Spring API 서버 주소
 	headers: {
 		"Content-Type": "application/json",
 	},
